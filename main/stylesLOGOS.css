@@ -1,0 +1,29 @@
+
+#playlist{
+    background-image: linear-gradient(90deg, purple, rgb(99, 2, 145))
+}
+
+#capacete{
+    background-color: rgb(150, 6, 6);
+
+}
+
+.cardTopo img{
+    border-radius: 5px;
+    margin-left: 10px;
+    width: 50px;
+    padding: 1px;
+    height: 50px;
+}
+
+#festajunina{
+    background-color: wheat;
+}
+
+#curriculo{
+    background-image: linear-gradient(90deg, rgb(69, 119, 255), rgb(0, 153, 255));
+}
+
+#pousada{
+    background-color: rgb(0, 132, 255);
+}
