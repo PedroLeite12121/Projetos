@@ -4,7 +4,7 @@
 
 body{
     margin: 0;
-    background: linear-gradient(135deg, #1a2a3a, #1f3641);
+    background: linear-gradient(135deg, #1a2a3a, #1f3641) fixed;
 }
 
 
