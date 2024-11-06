@@ -9,14 +9,13 @@ body{
 
 
 
-.cardGroup{  
-    gap: 50px;
-    margin: auto;
-    flex-wrap: wrap;
-    width: 100%;
-    margin-top: 100px;
-    display: flex;
+.cardGroup{ 
+    margin-top: 40px;
     justify-content: center;
+    display: flex;
+    gap: 50px;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
 .card{
@@ -41,6 +40,23 @@ body{
     align-items: center;
     display: flex;
     color: white;
+}
+
+#github{
+    padding: 4px;
+    border-radius: 10px;
+    background-color: rgb(172, 172, 172);
+    right: 0;
+    bottom: 0;
+    margin: 10px;
+    position: absolute;
+    width: 30px;
+    transition: 0.5s;
+}
+
+#github:hover{
+    background-color: rgb(255, 255, 255);
+    transition: 0.5s;
 }
 
 .linguagens{
@@ -122,3 +138,9 @@ body{
     left: 100%;
 }
 
+section{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
