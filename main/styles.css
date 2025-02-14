@@ -10,22 +10,23 @@ body{
 
 
 .cardGroup{ 
-    margin-top: 40px;
+    margin-top: 30vh;
     justify-content: center;
     display: flex;
-    gap: 50px;
+    gap: 5vh;
     flex-direction: row;
     flex-wrap: wrap;
+    margin-bottom: 20vh;
 }
 
 .card{
     box-shadow: 0px 0px 25px -5px black;
     position: relative;
-    padding-left: 10px;
-    padding-right: 10px;
-    border-radius: 15px;
-    width: 440px;
-    height: 280px;
+    padding-left: 1vh;
+    padding-right: 1vh;
+    border-radius: 2vh;
+    width: 27vw;
+    height: 40vh;
     background-color: #3a3a3a;
 }
 
@@ -33,24 +34,24 @@ body{
 
 .cardTopo{
     font-weight: bold;
-    width: 100%;
-    font-size: 30px;
+    width: 30vw;
+    font-size: 5vh;
     font-family: sans-serif;
-    gap: 10px;
+    gap: 1vh;
     align-items: center;
     display: flex;
     color: white;
 }
 
 #github{
-    padding: 4px;
-    border-radius: 10px;
+    padding: 0.5vh;
+    border-radius: 1vh;
     background-color: rgb(172, 172, 172);
     right: 0;
     bottom: 0;
-    margin: 10px;
+    margin: 1vh;
     position: absolute;
-    width: 30px;
+    width: 4vh;
     transition: 0.5s;
 }
 
@@ -70,37 +71,40 @@ body{
 
 .linguagens p{
     font-weight: bolder;
-    margin-left: 5px ;
-    font-size: 15px;
-    margin-right: 10px;
+    margin-left: 1vh ;
+    font-size: 2vh;
+    margin-right: 2vh;
 }
 
 
 
 .proposta{
-    margin-bottom: 10px;
+    margin-bottom: 1vh;
     color: white;
 }
 
 
 .proposta p{
+    font-size: 2.5vh;
     line-height: 1.6;
     margin-top: 0;
-    min-height: 40px;
+    height: 5vh;
     font-family: "Oxygen";
     font-weight: 500;
     font-style: normal;
+    margin-bottom: 4vh;
 }
 
 
 
 .acessar{
+    align-items: center;
     font-family: "Kanit";
-    margin-top: 200px;
     text-align: center;
-    border-radius: 5px;
+    border-radius: 1vh;
     margin: 0px auto;
-    width: 80%;
+    width: 70%;
+    height: 7vh;
     justify-content: center;
     display: flex;
     position: relative;
@@ -109,9 +113,9 @@ body{
 
 .acessar a{
     color: white;
-    padding: 12px;
+    padding: 2vh;
     width: 100%;
-    font-size: 20px;
+    font-size: 3vh;
     transition: 0.5s;
     text-decoration: none;
     background-color: rgba(0, 0, 0, 0.719);
