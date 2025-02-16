@@ -47,7 +47,7 @@ body{
 #github{
     padding: 0.5vh;
     border-radius: 1vh;
-    background-color: rgb(172, 172, 172);
+    background-color: rgb(255, 255, 255);
     right: 0;
     bottom: 0;
     margin: 1vh;
@@ -57,7 +57,7 @@ body{
 }
 
 #github:hover{
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(172, 172, 172);
     transition: 0.5s;
 }
 
@@ -68,6 +68,8 @@ body{
     align-items: center;
     display: flex;
     font-family: Arial;
+    margin-bottom: 1vh;
+    gap: 1vh;
 }
 
 .linguagens p{
